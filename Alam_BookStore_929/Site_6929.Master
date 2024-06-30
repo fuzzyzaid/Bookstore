@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site_6929.master.cs" Inherits="Alam_BookStore_929.Site_6929" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="masterForm" runat="server">
+         <header class="jumbotron"></header>
+
+        
+                <nav>
+                    <asp:BulletedList ID="blNav" runat="server" DisplayMode="HyperLink" 
+                        CssClass="nav nav-pills nav-stacked">
+                        <asp:ListItem Value="~/Default.aspx">BS3Home</asp:ListItem>
+                        <asp:ListItem Value="~/Products.aspx">BS3Products</asp:ListItem>
+                        <asp:ListItem Value="~/Cart_929.aspx">BS3Cart</asp:ListItem>
+                        <asp:ListItem Value="~/LoginPage.aspx">Login</asp:ListItem>
+                         <asp:ListItem Value="~/The_Admin_Sec3_Page.aspx">Admin</asp:ListItem>
+                    </asp:BulletedList>
+                </nav>
+            <main class="col-sm-12">
+                <asp:ContentPlaceHolder ID="mainPlaceholder" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
+       
+
+        <footer class="text-center text-info">
+            <asp:ContentPlaceHolder ID="footerPlaceHolder" runat="server">
+                <%-- default content - can be overridden by content pages --%>
+                <asp:Label ID="lblFooter" runat="server"></asp:Label>
+            </asp:ContentPlaceHolder>
+        </footer>
+    </form>
+</body>
+</html>

@@ -1,0 +1,116 @@
+﻿/*** Custom  CSS ***/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#homePage {
+    text-align: center;
+}
+#homePage h1 {
+    margin-top:8%;
+    font-size: 24px; 
+}
+#masterForm {
+    border: 1px solid #cecece;
+    margin-top: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.jumbotron {
+    background: url("../Images/banner.jpg");
+    background-size: 100% 100%;
+    margin-top: 1em;
+}
+
+.nav {
+    text-align: center;
+    border-bottom:1px solid black;
+}
+
+.nav li {
+        list-style: none;
+        display: inline-block;
+}
+
+.nav li a {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 10px 40px;
+        color: #000000;
+        font-size:large;
+}
+
+.nav li a:active {
+            color: blue;
+            text-decoration: underline;     
+}
+
+    .nav li a:hover {
+        text-decoration: underline;
+        font-size: 18px;
+        background-color: #fff;
+        color: #003b49;
+    }
+#productForm{
+    padding-top:3%;
+    margin-left:20%
+}
+.img_css {
+    width: 300px;
+    height: 350px
+}
+.quantity{
+    margin-left:-9%
+}
+.cart_container{
+    margin-left:15%
+}
+.cart_header{
+    margin-bottom:5%;
+    margin-left:15%;
+}
+.cart_btns{
+    margin-left:10%
+}
+.optional_data label, .optional_data input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.optional_contact label, .optional_contact input[type="radio"] {
+    margin-right: 5px;
+}
+
+.removeBtn {
+    margin-bottom: 1em;
+}
+.successMessage{
+    margin-left:40%;
+}
+.login_box {
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.buttons{
+    margin-top:5%;
+}
+.cancen_btn {
+    margin-right: 8%
+}
+.continue_btn{
+    margin-right:2%;
+}
+.welcomeMsg {
+    margin-top: 20px;
+    color: blue;
+}
+#genre {
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 30%
+}
+.space a{
+    margin-right: 2%;
+}
+
